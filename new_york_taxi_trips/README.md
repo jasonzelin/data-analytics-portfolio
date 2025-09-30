@@ -6,7 +6,6 @@ This project has the purpose to demonstrate a simple data ETL pipeline using a s
 ## 📂 Project Structure
     ├── data/                     # Containing the raw and transformed data files
     ├── notebook.ipynb            # Jupyter notebook with pipeline code
-    ├── requirements.txt          # Python dependencies
     └── README.md                 # This file
 
 ## ⚙️ ETL Pipeline Steps
@@ -44,13 +43,12 @@ Include screenshots (like .png) of transformations or schema. -->
 
 ## 🏗️ How to Run Locally
 
-Clone this repo:
-
+#### 1. Clone this repo:
     git clone https://github.com/jasonzelin/data-analytics-portfolio.git
     cd data-analytics-portfolio/new_york_taxi_trips
 
 
-Create virtual environment & install dependencies:
+#### 2. Create virtual environment & install dependencies:
 
     python -m venv venv
     source venv/bin/activate   # For Linux/Mac OS
@@ -58,12 +56,12 @@ Create virtual environment & install dependencies:
     pip install -r requirements.txt
 
 
-Run Jupyter Notebook:
+#### 3. Run Jupyter Notebook:
 
     jupyter notebook
 
 
-Open **`nyc_taxi_etl.ipynb`** and execute cells.
+#### 4. Open **`notebook.ipynb`** and execute cells.
 
 ## 🔑 Credentials & Config
 
